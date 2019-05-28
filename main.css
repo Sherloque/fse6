@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+
+
+.form {
+  width:40%;
+  padding:20px;
+}
+
+.input-wrap {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:15px;
+}
+
+.input-block {
+  display:flex;
+  flex-direction: column;
+}
+
+span {
+  display:block;
+  padding-bottom: 5px;
+}
+
+textarea {
+  width:100%;
+}
+
+.submit-button {
+  float:right;
+}
